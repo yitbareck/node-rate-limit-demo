@@ -1,0 +1,17 @@
+{
+  "name": "node-rate-limit-demo",
+  "version": "1.0.0",
+  "description": "A simple node/express app demonestrating api rate limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yitbarek Z",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0"
+  }
+}
