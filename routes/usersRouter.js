@@ -15,10 +15,4 @@ router.get("/:id", (req, res) => {
   res.status(404).send("User with the specified id doesn't exist");
 });
 
-router.get("/:email", (req, res) => {
-  const user = userService.getUserByEmail(parseInt(req.params.email));
-  if (user) return res.send(user);
-  res.status(404).send("User with the specified email doesn't exist");
-});
-
 module.exports = router;
