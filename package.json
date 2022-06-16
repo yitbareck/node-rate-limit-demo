@@ -1,7 +1,7 @@
 {
   "name": "node-rate-limit-demo",
   "version": "1.0.0",
-  "description": "A simple node/express app demonestrating api rate limit",
+  "description": "A simple node/express app demonstrating API rate limit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
